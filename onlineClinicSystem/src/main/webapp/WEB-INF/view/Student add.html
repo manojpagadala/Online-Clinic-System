@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT ADD</title>
+</head>
+<style>
+    table,tr,th,td {
+        border:1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        width: 100vw;
+        margin: 10px;
+    }
+    table {
+        margin: 20px;
+        outline: 10px solid #e5e6e5df ;
+
+    }
+    .color {
+        background-color:#e6e6e5df;
+    }
+    .space {
+        padding-top: 20px;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <td class="color" colspan="4">Student Add</td>
+        </tr>
+        <tr>
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td>Student Login*</td>
+            <td class="color">
+                <label></label>
+                <input placeholder="STD13">
+            </td>
+            <td>Student Name*</td>
+            <td class="color">
+                <label></label>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>Gender*</td>
+            <td class="color">
+                <select>
+                    <option>select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                </select>
+            </td>
+            <td>Date of Birth*</td>
+            <td class="color">
+                <select>
+                    <option>Date</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+                <select>
+                    <option>Month</option>
+                    <option>JAN</option>
+                    <option>FEB</option>
+                    <option>MAR</option>
+                    <option>APR</option>
+                    <option>MAY</option>
+                    <option>JUN</option>
+                    <option>JUL</option>
+                    <option>AUG</option>
+                    <option>SEP</option>
+                    <option>OCT</option>
+                    <option>NOV</option>
+                    <option>DEC</option>
+                </select>
+                <select>
+                    <option>Year</option>
+                    <option>1995</option>
+                    <option>1996</option>
+                    <option>1997</option>
+                    <option>1998</option>
+                    <option>1999</option>
+                    <option>2000</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Region*</td>
+            <td class="color">
+                <select>
+                    <option>select</option>
+                    <option>Christian</option>
+                    <option>Hindu</option>
+                    <option>Muslim</option>
+                </select>
+            </td>
+            <td>Community*</td>
+            <td class="color">
+                <select>
+                    <option>Select</option>
+                    <option>Vaishyas</option>
+                    <option>Bramhins</option>
+                    <option>Christians</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Caste*</td>
+            <td class="color">
+                <select>
+                    <option>Select</option>
+                    <option>O.C</option>
+                    <option>B.C</option>
+                    <option>S.C</option>
+                    <option>S.T</option>
+                </select>
+            </td>
+            <td>Father/Guardian Name</td>
+            <td class="color">
+                <lable></lable>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Annual Income of Father /<br>Guardian
+            </td>
+            <td class="color">
+                <label></label>
+                <input type="tel">Rs.
+            </td>
+            <td>
+                Father/Guardian<br>Occupation
+            </td>
+            <td class="color">
+                <label></label>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Communication Address (CA)
+            </td>
+            <td class="color">
+                <textarea></textarea>
+            </td>
+            <td>Permanent Address (PA)</td>
+            <td class="color">
+                <label></label>
+                <textarea></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>CA City</td>
+            <td class="color">
+                <label></label>
+                <input type="text">
+            </td>
+            <td>PA City</td>
+            <td class="color">
+                <label></label>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>CA Pincode / Zipcode</td>
+            <td class="color">
+                <label></label>
+                <input type="tel">
+            </td>
+            <td>PA Pincode / Zipcode</td>
+            <td class="color">
+                <label></label>
+                <input type="tel">
+            </td>
+        </tr>
+        <tr>
+            <td>CA State / Province</td>
+            <td class="color">
+                <select>
+                    <option>Select</option>
+                    <option>Andhra Pradesh</option>
+                    <option>Bihar</option>
+                    <option>Telangana</option>
+                </select>
+            </td>
+            <td>PA State / Province</td>
+            <td class="color">
+                <select>
+                    <option>Select</option>
+                    <option>Andhra Pradesh</option>
+                    <option>Bihar</option>
+                    <option>Telangana</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>CA Country</td>
+            <td class="color">
+                <select>
+                    <option>Select</option>
+                    <option>U.S.A</option>
+                    <option>India</option>
+                    <option>France</option>
+                </select>
+            </td>
+            <td>PA Country</td>
+            <td class="color">
+                <select>
+                    <option>Select</option>
+                    <option>U.S.A</option>
+                    <option>India</option>
+                    <option>France</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Mobile Number</td>
+            <td class="color">
+                <label></label>
+                <input type="tel" pattern="[0-9]{10}" required>
+            </td>
+            <td>Date of Admission*</td>
+            <td class="color">
+                <select>
+                    <option>Date</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+                <select>
+                    <option>Month</option>
+                    <option>JAN</option>
+                    <option>FEB</option>
+                    <option>MAR</option>
+                    <option>APR</option>
+                    <option>MAY</option>
+                    <option>JUN</option>
+                    <option>JUL</option>
+                    <option>AUG</option>
+                    <option>SEP</option>
+                    <option>OCT</option>
+                    <option>NOV</option>
+                    <option>DEC</option>
+                </select>
+                <select>
+                    <option>Year</option>
+                    <option>1995</option>
+                    <option>1996</option>
+                    <option>1997</option>
+                    <option>1998</option>
+                    <option>1999</option>
+                    <option>2000</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td class="color">
+                <label></label>
+                <input type="text">
+            </td>
+            <td>Type of Entry</td>
+            <td class="color">
+                <select>
+                    <option>Select</option>
+                    <option>U.S.A</option>
+                    <option>India</option>
+                    <option>France</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email Id</td>
+            <td class="color">
+                <label></label>
+                <input type="text">
+            </td>
+            <td>School Last Studied</td>
+            <td class="color">
+                <label></label>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>Admitted To Course</td>
+            <td class="color">
+                <select>
+                    <option>Select</option>
+                    <option>MECHANICAL</option>
+                    <option>ECE</option>
+                    <option>CSE</option>
+                </select>
+            </td>
+            <td>Admitted Batch Year</td>
+            <td class="color">
+                <label></label>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>Admitted To Section</td>
+            <td class="color">
+                <select>
+                    <option>Select</option>
+                    <option>Section-A</option>
+                    <option>Section-B</option>
+                    <option>Section-C</option>
+                </select>
+            </td>
+            <td>+2 Marks</td>
+            <td class="color">
+                <label></label>
+                <input type="tel">
+            </td>
+        </tr>
+        <tr>
+            <td>University Roll Number</td>
+            <td class="color">
+                <label></label>
+                <input type="text">
+            </td>
+            <td></td>
+            <td class="color"></td>
+        </tr>
+        <tr>
+            <td>Remarks</td>
+            <td class="color">
+                <label></label>
+                <input type="text">
+            </td>
+            <td>Upload Photo</td>
+            <td class="color" >
+                <label></label>
+                <input type="file">
+            </td>
+        </tr>
+        <tr>
+            <td class="space"></td>
+            <td class="color"></td>
+            <td class="space"></td>
+            <td class="color"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="color"></td>
+            <td class="color" colspan="2">
+                <button>Submit</button>
+                <button>Reset</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">*Indicates Compulsory fields.</td>
+        </tr>
+    </table>
+</center>
+</body>
+</html>

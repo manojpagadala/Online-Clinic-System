@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <style>
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+      text-align: initial;
+      position: static;
+      
+
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 10px;
+      color:#452aaf;
+      
+      
+    }
+
+    .form-group select,
+    .form-group input[type="text"] {
+      width: 500px;
+      padding: 5px;
+      white-space:nowrap;
+    }
+
+    .form-group .select-wrapper {
+      position: relative;
+      
+    }
+
+    .form-group .select-wrapper::after {
+      content: '\25BC';
+      position: absolute;
+      top: 50%;
+      right: 5px;
+      transform: translateY(-50%);
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    .button {
+      padding: 10px 20px;
+      background-color: #452aaf;
+      color: #FFF;
+      border: none;
+      cursor: pointer;
+    }
+    .label{
+        white-space: nowrap;
+        display: inline;
+        width: 400px;
+        height: 25px;
+    }
+    .text{
+        display: inline-block;
+        width: 200px;
+        height: 25px;
+        
+    }
+  </style>
+</head>
+<body>
+  <h2 style="text-align: center;color:black;">Schedule your 2hours free Demo Session Register Now</h2>
+  <form>
+    <center>
+    <div class="label">
+        <div class="#">
+        <label for="name"></label>
+        <label for="Email"></label>
+        <input class="text" id="Name*" placeholder="Name*" type="text">
+          <input type="text" id="Email*" placeholder="Email*" class="text">
+        </div>
+
+    </div>
+    <br>
+        <div class="form-container">
+            <div class="form-group">
+            <input type="text" pattern="[0-9]*" placeholder="Mobilenumber*" inputmode="numeric">
+        </div>
+      <div class="form-group">
+        <span style="color: #452aaf;"  class=nobr>Lets us know the purpose to Enroll this Course</span>
+        <div class="#">
+          <select id="Lets us know the purpose to Enroll this Course" name="country" required>
+            <option value="#">choose an option</option>
+            <option value="T">To develop the skill</option>
+            <option value="C">Canada</option>
+            <option value="U">United Kingdom</option>
+            <option value="A">Australia</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <span style="color: #452aaf;">Your current Employment Status:</span>
+        <div class="#">
+          <select id="status" name="Your current Employment Status:" required>
+            <option value="">choose an option</option>
+            <option value="W">Working</option>
+            <option value="N">Not working</option>
+            <option value="O">Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <span style="color: #452aaf;">Mode of Interested</span>
+        <div class="#">
+          <select id="#" name="Mode of Interested" required>
+            <option value="">choose an option</option>
+            <option value="C">C</option>
+            <option value="J">JAVA</option>
+            <option value="P">PYTHON</option>
+            <option value="O">Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <span style="color: #452aaf;">How did you hear about us</span>
+        <div class="#">
+          <select id="hear" name="How did you hear about us" required>
+            <option value="#">choose an option</option>
+            <option value="L">Linkedin</option>
+            <option value="I">Instagram</option>
+            <option value="O">Other</option>
+            
+          </select>
+        </div>
+      </div>
+    <br>
+        <div>
+            <textarea rows="6" cols="70" placeholder="Your Message*"></textarea>
+        </div>
+      <div class="button-container">
+        <button type="submit" class="button">Register</button>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
